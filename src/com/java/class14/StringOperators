@@ -1,0 +1,16 @@
+equals()
+equalsIgnoreCase()
+subString()
+toUpperCase() / to LowerCase()
+length()
+charAt()
+replace()
+replaceAll()
+.isEmpty
+concat()
+trim()
+valueOf()
+compareTo()
+format
+Split()
+Contains()

@@ -1,0 +1,12 @@
+Class09 Notes
+
+Increment/Decrement Operator (++,--) : It'll increment or decrement the value of variable by  1
+
+++ : Increment value of variable by 1
+-- :decrement value of variable by 1
+
+Assignment (=)
+Increment/Decrement (++,--)
+Arithmetic (+,-,*,/,%)
+Comprision (>,<,>=,<=,==,!=)
+Logical (&&,||,!)

@@ -1,0 +1,16 @@
+String - Is immutable-(means we can't change the value of the String -once we initialized in the memory);
+String variable name can be changed as much as you want. But when you create an object name its impossible to change/ its immutable
+
+String Pool is basically like a list of all the object names that were ever created
+
+Since you cannot delete/change the object name. It will go to String Pool. String Pool checks the list whenever you create an object name to see if already exists.
+
+String str1 ="Hello";//Here we are storing constant value "Hello" into the String variable so it'll get store into the String pool memory
+String str 2 =new String ("Hello")// Here we're creating object of String with the value "Hello" so it'll get stored into heap memory
+
+String str 3 =sc.nextLine(); //Here we're trying to get value "Hello" from user using scanner class so it'll also get stored into heap memory
+
+==>When we compare String with '==' it'll just compare location of two String
+
+==> When we create two String variables with same constant value,java will create one value in String pool memory and both variable will points
+to the same memory location because it was same value .So comparing that variable using '=='will give you true.

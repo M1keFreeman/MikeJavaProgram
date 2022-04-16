@@ -1,0 +1,5 @@
+// Flavours of IF Statements
+//1. Simple If
+//2. If Else
+//3.Ladder if else
+// 4.Nested if else(condition inside the conditions)
