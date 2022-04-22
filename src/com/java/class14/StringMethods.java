@@ -57,10 +57,10 @@ public class StringMethods {
         //8.Empty and Blank
         str1="          ";// will be false cuz we have spaces //here we can use isBlank to check if its empty';
         str3 = "";//
-        System.out.println("8.Length of String "+str1.isEmpty());
-        System.out.println("8.Length of String "+str3.isEmpty());
-        System.out.println("8.Length of String "+str1.isBlank());
-        System.out.println("8.Length of String "+str3.isBlank());
+        System.out.println("8.Empty and Blank "+str1.isEmpty());
+        System.out.println("8.Empty and Blank "+str3.isEmpty());
+        System.out.println("8.Empty and Blank "+str1.isBlank());
+        System.out.println("8.Empty and Blank "+str3.isBlank());
 
         System.out.println("========================================================================================");
         //9. Replace &ReplaceAll
@@ -91,16 +91,16 @@ public class StringMethods {
         String[] words=  str1.split(" ");
 //       System.out.println("12.Split "+ words[0] + words[1] + words[2] + words[3]);
 
-        //Find a length
+        //13. Find a length
         System.out.println(words.length);
         for (int i=0;i < words.length;i++){
-            System.out.println("12.Split " + words[i]);
+            System.out.println("13.Find a length " + words[i]);
         }
-//        System.out.println(words[0]);
-//        System.out.println(words[1]);
-//        System.out.println(words[2]);
-//        System.out.println(words[3]);
-//        System.out.println(words[4]);
-        System.out.println("========================================================================================");
+        System.out.println(words[0]);
+        System.out.println(words[1]);
+        System.out.println(words[2]);
+        System.out.println(words[3]);
+        System.out.println(words[4]);
+        System.out.println("================================="+ words.length);
     }
 }
