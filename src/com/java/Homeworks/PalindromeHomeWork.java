@@ -6,19 +6,29 @@ import java.util.Scanner;
 public class PalindromeHomeWork {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        String name = "";
-        String reverce = "";
-        System.out.println("Enter the name to check ");
-        name = sc.nextLine().toLowerCase();
-        int length = name.length()-1;
-        for (int i =length;i>=0;i--)
-            reverce+=name.charAt(i);
-            if (name.equals(reverce)){
-                System.err.println("Yuy this "+name+" is a Palindrome ");}
-            else {
-                System.err.println("Sorry "+name+" is not a Palindrome");}
+        System.out.println("Please enter the word what you want it to check : ");
+        String word = sc.nextLine();
 
+        System.out.println(Palindrome(word));
 
 
     }
+
+    public static String Palindrome(String word) {
+        String rev = "";
+        int length =word.length()-1;
+
+
+        for (int i = length; i >=0; i--)
+            rev += word.charAt(i);
+
+            if (rev.equals(word)) {
+                System.out.println("This word : "+ word+" is "+ "Palindrome :");
+            } else {
+                System.out.println("Not a Palindrome ");
+            }
+
+        return rev;
+    }
+
 }

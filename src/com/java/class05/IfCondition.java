@@ -9,7 +9,7 @@ public class IfCondition {
       int isFuelIsLow = 0; int fuelPercentage = 20;
         System.out.println("1. Starting drive");
 
-        if(fuelPercentage <= 20){
+        if(fuelPercentage >= 20 || isFuelIsLow <=10){
             System.out.println("2.Fill the fuel");}
 
             System.out.println("3.Ending drive");

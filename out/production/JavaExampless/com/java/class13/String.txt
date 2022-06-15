@@ -6,6 +6,7 @@ String Pool is basically like a list of all the object names that were ever crea
 Since you cannot delete/change the object name. It will go to String Pool. String Pool checks the list whenever you create an object name to see if already exists.
 
 String str1 ="Hello";//Here we are storing constant value "Hello" into the String variable so it'll get store into the String pool memory
+
 String str 2 =new String ("Hello")// Here we're creating object of String with the value "Hello" so it'll get stored into heap memory
 
 String str 3 =sc.nextLine(); //Here we're trying to get value "Hello" from user using scanner class so it'll also get stored into heap memory

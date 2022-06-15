@@ -8,11 +8,11 @@ public class ClassWork {
         Scanner sc = new Scanner(System.in);
         System.out.println("Please enter a number");
         int num = sc.nextInt();
-        if (num >= 0) {
+        if (num > 0) {
             System.out.println("This is positive number");
-        } else if (num <= 0) {
+        } else if (num < 0) {
             System.out.println("this is negative number");
-        } else if (num == 0) {
+        } else {
             System.out.println("This is a Zero");
         }
 

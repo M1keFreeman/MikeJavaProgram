@@ -13,7 +13,7 @@ public class SwitchStatement {
         //Default- it another statement -->it will text when we put another number what we don't have in statement
         //we need a break after default, if we want to put another statements.
         switch (num) {
-            case 100 :
+            case 0 :
                 System.out.println("Zero");
                 break;
             case 1:

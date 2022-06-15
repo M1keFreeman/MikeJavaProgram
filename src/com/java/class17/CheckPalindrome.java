@@ -15,9 +15,9 @@ public class CheckPalindrome {
 
         // Compare Rev with original String to check if palindrome
         if(str.equals(rev)){
-            System.out.println("It's palindrome");
+            System.out.println("It's palindrome " +str);
         }else{
-            System.out.println("Not palindrome");
+            System.out.println("Not palindrome"+ str);
         }
 
     }
@@ -32,6 +32,8 @@ public class CheckPalindrome {
 
         return rev;
     }
+
+
 
 
 }

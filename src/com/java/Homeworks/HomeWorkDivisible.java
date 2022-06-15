@@ -7,11 +7,42 @@ public class HomeWorkDivisible {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("please enter the number");
-        int num = sc.nextInt();
-        if (num % 5 == 0 || num % 3 == 0)
-            System.out.println(num + " Is Divisible");
-        else {
-            System.out.println(num + " Is Not Divisible");
+        int num= sc.nextInt();
+            if (num%5==0 ||num%3==0){
+                System.out.println(num+" Is divisivle");
+            }else {
+                System.out.println(num+ " Is not divisible");
         }
+
+
     }
-    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//
+//        int num = sc.nextInt();
+//        if (num % 5 == 0 || num % 3 == 0)
+//            System.out.println(num + " Is Divisible");
+//        else {
+//            System.out.println(num + " Is Not Divisible");
+//        }
+//    }
+//    }

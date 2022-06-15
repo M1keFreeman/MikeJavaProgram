@@ -10,11 +10,11 @@ public class ComparisionOperatorExample {
         System.out.println(a<c);//false
         System.out.println(a>=c);//true
         System.out.println(a<=b);//true
-        System.out.println(a <=c);//true
-        System.out.println(a !=b);//true
-        System.out.println(b <=c);//false
-        System.out.println(b >=d);//true
-        System.out.println(a !=c);//false
+        System.out.println(a<=c);//true
+        System.out.println(a!=b);//true
+        System.out.println(b<=c);//false
+        System.out.println(b>=d);//true
+        System.out.println(a!=c);//false
 
     }
 }

@@ -2,7 +2,7 @@ package com.java.class15;
 
 import java.util.Scanner;
 
-//Write a program to take one String from user and print occurrence of given car in String
+//Write a program to take one String from user and print occurrence of given char in String
 public class FindOccuranceOfChar {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -13,6 +13,7 @@ public class FindOccuranceOfChar {
         int count = 0;
 
         for (int i =0;i<text.length();i++) {
+
             if (text.charAt(i) == c) {
                 count++;
             }
